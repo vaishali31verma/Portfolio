@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import { FaReact, FaHardHat } from "react-icons/fa";
+import GitHubCalendar from 'react-github-calendar';
 import {
   SiBlockchaindotcom,
   SiHtml5,
@@ -294,6 +295,7 @@ export const Projects = () => {
  
 
         </div>
+        <GitHubCalendar  style={{marginLeft:"120px"}} username="vaishali31verma" />
       </div>
     </>
   );

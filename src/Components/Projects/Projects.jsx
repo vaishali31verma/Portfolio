@@ -295,7 +295,7 @@ export const Projects = () => {
  
 
         </div>
-        <GitHubCalendar  style={{marginLeft:"120px"}} username="vaishali31verma" />
+        <GitHubCalendar  style={{margin:"auto"}} username="vaishali31verma" />
       </div>
     </>
   );
